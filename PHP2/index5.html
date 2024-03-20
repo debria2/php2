@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Pedra, Papel, Tesoura</title>
+</head>
+<body>
+
+<h2>Jogo Pedra, Papel, Tesoura</h2>
+
+<form method="post" action="exer5.php">
+    <label for="name">Digite seu nome:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="choice">Escolha entre pedra, papel ou tesoura:</label><br>
+    <select id="choice" name="choice" required>
+        <option value="pedra">Pedra</option>
+        <option value="papel">Papel</option>
+        <option value="tesoura">Tesoura</option>
+    </select><br><br>
+
+    <input type="submit" name="submit" value="Jogar">
+</form>
